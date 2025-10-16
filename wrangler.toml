@@ -2,7 +2,7 @@ name = "storefront-qwik-starter"
 compatibility_date = "2024-08-06"
 compatibility_flags = ["nodejs_compat"]
 
-main = "dist/entry.cloudflare-pages.tsx"
+main = "src/entry.cloudflare-pages.tsx"
 
 [assets]
 directory = "./dist"
