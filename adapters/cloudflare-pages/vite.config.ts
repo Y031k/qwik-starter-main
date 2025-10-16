@@ -7,6 +7,7 @@ export default extendConfig(baseConfig, () => {
 		build: {
 			ssr: true,
 			rollupOptions: {
+				external: ['@qiwik-client-manifest'],
 				input: ['src/entry.cloudflare-pages.tsx', '@qwik-city-plan'],
 			},
 		},
